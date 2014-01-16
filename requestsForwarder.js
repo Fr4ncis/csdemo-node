@@ -6,7 +6,7 @@ var http = require('http');
 var express = require('express');
 var app;
 
-var targetProto, targetServer, listenPort = 3000;
+var targetProto, targetServer, listenPort = process.env.PORT || 3000;
 
 var start = function(target, port) {
 	targetProto = target.split("://")[0];
