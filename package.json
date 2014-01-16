@@ -1,0 +1,30 @@
+{
+  "name": "csdemo-node",
+  "version": "0.0.1",
+  "description": "Node CS API Proxy",
+  "main": "cs.js",
+  "dependencies": {
+    "xmldom": "~0.1.17",
+    "xpath": "0.0.5",
+    "express": "~3.4.8",
+    "zlib": "~1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fr4ncis/csdemo-node.git"
+  },
+  "author": "Francesco Mattia",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/Fr4ncis/csdemo-node/issues"
+  },
+  "homepage": "https://github.com/Fr4ncis/csdemo-node",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
+
