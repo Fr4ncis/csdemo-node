@@ -2,7 +2,7 @@ var reqforwarder = require('./requestsForwarder');
 var utils = require('./utils');
 var cookie; // stores cookie, not persistent
 
-reqforwarder.start('https://api.couchsurfing.org',80);
+reqforwarder.start('https://api.couchsurfing.org',3000);
 
 // session is stored on the proxy server
 reqforwarder.appendHandler('/sessions', function getCookies(req,res,next) {
